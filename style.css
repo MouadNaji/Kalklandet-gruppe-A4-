@@ -1,0 +1,56 @@
+/** HEADER CSS **/
+/** HEADER CSS **/
+
+.SplashBillede{
+
+
+}
+
+.Logo{
+
+
+
+}
+
+.DropDownMenu{
+
+
+}
+
+
+/** FOOTER CSS **/
+/** FOOTER CSS **/
+img {
+    width: 100%;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(254, 100, 0);
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+
+
+.SoMe {
+
+
+}
+
+#insta {
+    width: 27vw;
+    Height: auto;
+
+}
+
+#facebook {
+
+    width: 27vw;
+    Height: auto;
+
+}
