@@ -21,6 +21,7 @@ img {
     width: 100%;
 
 }
+/*
 
 footer {
     display: flex;
@@ -50,6 +51,68 @@ footer {
     width: 27vw;
     Height: auto;
 
+
+}
+*/
+  @media only screen and (max-width:800px) {
+
+.footerinfo{
+
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0px 40px 0px 40px;
+        }
+
+}
+
+
+        @media only screen and (min-width:376px) {
+
+             .icon img {
+                display: none;
+
+            }
+}
+
+
+
+
+        @media only screen and (max-width:375px){
+
+
+.box{
+
+                display: none;
+            }
+
+        }
+
+
+        footer {
+            background-color: #d42f2f;
+            padding: 1vh;
+            margin: 2vw 0vw 0vw;
+
+
+        }
+
+        .footerinfo{
+
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0px 5vw 0px 0vw;
+        }
+
+
+
+
+
+/** SPLASH IMAGE / HEADER **/
+/** SPLASH IMAGE / HEADER **/
+
+
 .SplashBillede {
     width: 100%;
     height: auto;
@@ -60,3 +123,4 @@ footer {
     height: auto;
 
 }
+
