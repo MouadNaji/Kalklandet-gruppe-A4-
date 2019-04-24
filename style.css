@@ -1,10 +1,7 @@
+<<<<<<< HEAD
 /** HEADER CSS **/
 /** HEADER CSS **/
 
-.SplashBillede{
-
-
-}
 
 .Logo{
 
@@ -52,5 +49,14 @@ footer {
 
     width: 27vw;
     Height: auto;
+
+.SplashBillede {
+    width: 100%;
+    height: auto;
+}
+
+.Billeder {
+    width: 100%;
+    height: auto;
 
 }
