@@ -321,11 +321,14 @@ p {
 }
 
 h1 {
+    font-family: limestoneregular;
 
-<<<<<<< HEAD
+}
+
+
 
 footer {
-=======
+
     font-family: limestoneregular;
 
 }
@@ -333,6 +336,6 @@ footer {
 h2 {
 
     font-family: limestoneregular;
->>>>>>> origin/master
+
 
 }
