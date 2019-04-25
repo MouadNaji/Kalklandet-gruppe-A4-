@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .Logo {}
 
 .DropDownMenu {}
@@ -21,27 +20,6 @@
     grid-template-columns: 1fr 6fr;
     padding-bottom: 0;
 }
-=======
-/** HTML **/
-
-@font-face {
-    font-family: 'limestoneregular';
-    src: url('limestone_regular-webfont.woff2') format('woff2'),
-        url('limestone_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-p {
-
-    font-family: limestoneregular;
-
-}
-
-h1{
-
-    font-family: limestoneregular;
->>>>>>> Kalklandet-gruppe-A4-/master
 
 .dropdown {
   position: relative;
@@ -60,7 +38,6 @@ h1{
     width: 10vw;
 }
 
-<<<<<<< HEAD
 .dropdown-content {
   display: none;
   position: absolute;
@@ -70,11 +47,7 @@ h1{
   padding: 7px 5px;
   z-index: 1;
 }
-=======
-h2{
->>>>>>> Kalklandet-gruppe-A4-/master
 
-    font-family: limestoneregular;
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -129,7 +102,6 @@ text-align: center;
     display: block;
         font-size: 0.8rem;
 
-<<<<<<< HEAD
 }
     .pilned{display: block;
         padding-top: 0.6rem;
@@ -163,19 +135,6 @@ text-align: center;
 /*****************************************UnderMenuStart**********************************************/
 /******************************************UnderMenuSlut**********************************************/
 /******************************************FooterStart************************************************/
-=======
-/** HEADER CSS **/
-/** HEADER CSS **/
-
-
-.Logo {}
-
-.DropDownMenu {}
-
-
-/** FOOTER CSS **/
-/** FOOTER CSS **/
->>>>>>> Kalklandet-gruppe-A4-/master
 img {
     width: 100%;
 
@@ -281,9 +240,6 @@ footer {
 
 .box {
 
-<<<<<<< HEAD
-.SoMe {}
-=======
     flex-grow: 1;
     flex-basis: 100px;
     display: flex;
@@ -293,7 +249,6 @@ footer {
 
 
 }
->>>>>>> Kalklandet-gruppe-A4-/master
 
 .icon {
 
@@ -309,18 +264,19 @@ footer {
 /** SPLASH IMAGE / HEADER **/
 
 
+.SplashBillede {
+    width: 100%;
+    height: auto;
+}
+
+.Billeder {
+    width: 100%;
+    height: auto;
+
+}
+
     /******************************************FooterStart************************************************/
 
 
 
 
-    .SplashBillede {
-        width: 100%;
-        height: auto;
-    }
-
-    .Billeder {
-        width: 100%;
-        height: auto;
-
-    }
