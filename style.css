@@ -11,7 +11,7 @@
 /** FOOTER CSS **/
 /** FOOTER CSS **/
 img {
-    width: 100%;
+	width: 100%;
 
 }
 
@@ -20,15 +20,15 @@ img {
 
 
 #insta {
-    width: 15vw;
-    Height: auto;
+	width: 15vw;
+	Height: auto;
 
 }
 
 #facebook {
 
-    width: 15vw;
-    Height: auto;
+	width: 15vw;
+	Height: auto;
 }
 
 
@@ -39,31 +39,31 @@ img {
 
 @media only screen and (min-width:602px) {
 
-    #insta {
-        width: 25vw;
-        Height: auto;
+	#insta {
+		width: 25vw;
+		Height: auto;
 
-    }
+	}
 
-    #facebook {
+	#facebook {
 
-        width: 25vw;
-        Height: auto;
-    }
+		width: 25vw;
+		Height: auto;
+	}
 
 
-    .box {
+	.box {
 
-        flex-grow: 1;
-        flex-basis: 100px;
+		flex-grow: 1;
+		flex-basis: 100px;
 
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        margin: 3px;
-        padding: 1rem;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		margin: 3px;
+		padding: 1rem;
 
-    }
+	}
 
 
 
@@ -73,10 +73,10 @@ img {
 
 @media only screen and (min-width:601px) {
 
-    .icon img {
-        display: none;
+	.icon img {
+		display: none;
 
-    }
+	}
 }
 
 
@@ -88,47 +88,47 @@ img {
 @media only screen and (max-width:600px) {
 
 
-    .SoMe {
+	.SoMe {
 
-        display: none;
-    }
+		display: none;
+	}
 
 }
 
 
 footer {
-    background-color: #efc696;
-    padding: 4vh;
-    margin: 0vw;
-    align-content: center;
+	background-color: #efc696;
+	padding: 4vh;
+	margin: 0vw;
+	align-content: center;
 
 
 }
 
 .footerinfo {
 
-    display: flex;
-    justify-content: space-between;
-    margin: 0px;
-    flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	flex-wrap: wrap;
 }
 
 .box {
 
-    flex-grow: 1;
-    flex-basis: 100px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0px;
-    padding: 10px;
+	flex-grow: 1;
+	flex-basis: 100px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	padding: 10px;
 
 
 }
 
 .icon {
 
-    width: 35vw;
-    Height: auto;
+	width: 35vw;
+	Height: auto;
 
 }
 
@@ -140,12 +140,19 @@ footer {
 
 
 .SplashBillede {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .Billeder {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 
+}
+
+/** BODY **/
+
+header {
+	margin: 0vw;
+	margin-top: 0vw;
 }
