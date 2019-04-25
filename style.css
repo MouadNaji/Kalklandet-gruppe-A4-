@@ -1,4 +1,32 @@
-<<<<<<< HEAD
+/** HTML **/
+
+@font-face {
+    font-family: 'limestoneregular';
+    src: url('limestone_regular-webfont.woff2') format('woff2'),
+        url('limestone_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+
+    font-family: limestoneregular;
+
+}
+
+h1{
+
+    font-family: limestoneregular;
+
+}
+
+h2{
+
+    font-family: limestoneregular;
+
+}
+
+
 /** HEADER CSS **/
 /** HEADER CSS **/
 
