@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Logo {}
 
 .DropDownMenu {}
@@ -20,6 +21,27 @@
     grid-template-columns: 1fr 6fr;
     padding-bottom: 0;
 }
+=======
+/** HTML **/
+
+@font-face {
+    font-family: 'limestoneregular';
+    src: url('limestone_regular-webfont.woff2') format('woff2'),
+        url('limestone_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+
+    font-family: limestoneregular;
+
+}
+
+h1{
+
+    font-family: limestoneregular;
+>>>>>>> Kalklandet-gruppe-A4-/master
 
 .dropdown {
   position: relative;
@@ -38,6 +60,7 @@
     width: 10vw;
 }
 
+<<<<<<< HEAD
 .dropdown-content {
   display: none;
   position: absolute;
@@ -47,7 +70,11 @@
   padding: 7px 5px;
   z-index: 1;
 }
+=======
+h2{
+>>>>>>> Kalklandet-gruppe-A4-/master
 
+    font-family: limestoneregular;
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -102,6 +129,7 @@ text-align: center;
     display: block;
         font-size: 0.8rem;
 
+<<<<<<< HEAD
 }
     .pilned{display: block;
         padding-top: 0.6rem;
@@ -135,35 +163,151 @@ text-align: center;
 /*****************************************UnderMenuStart**********************************************/
 /******************************************UnderMenuSlut**********************************************/
 /******************************************FooterStart************************************************/
+=======
+/** HEADER CSS **/
+/** HEADER CSS **/
+
+
+.Logo {}
+
+.DropDownMenu {}
+
+
+/** FOOTER CSS **/
+/** FOOTER CSS **/
+>>>>>>> Kalklandet-gruppe-A4-/master
 img {
     width: 100%;
 
 }
 
-footer {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(254, 100, 0);
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
 
 
-}
 
-
-.SoMe {}
 
 #insta {
-    width: 27vw;
+    width: 15vw;
     Height: auto;
 
 }
 
 #facebook {
 
-    width: 27vw;
+    width: 15vw;
     Height: auto;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:602px) {
+
+    #insta {
+        width: 25vw;
+        Height: auto;
+
+    }
+
+    #facebook {
+
+        width: 25vw;
+        Height: auto;
+    }
+
+
+    .box {
+
+        flex-grow: 1;
+        flex-basis: 100px;
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 3px;
+        padding: 1rem;
+
+    }
+
+
+
+
+}
+
+
+@media only screen and (min-width:601px) {
+
+    .icon img {
+        display: none;
+
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+
+
+    .SoMe {
+
+        display: none;
+    }
+
+}
+
+
+footer {
+    background-color: #efc696;
+    padding: 4vh;
+    margin: 0vw;
+    align-content: center;
+
+
+}
+
+.footerinfo {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+
+.box {
+
+<<<<<<< HEAD
+.SoMe {}
+=======
+    flex-grow: 1;
+    flex-basis: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 10px;
+
+
+}
+>>>>>>> Kalklandet-gruppe-A4-/master
+
+.icon {
+
+    width: 35vw;
+    Height: auto;
+
+}
+
+
+
+
+/** SPLASH IMAGE / HEADER **/
+/** SPLASH IMAGE / HEADER **/
+
 
     /******************************************FooterStart************************************************/
 
