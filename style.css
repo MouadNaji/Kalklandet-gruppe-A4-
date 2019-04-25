@@ -11,121 +11,140 @@
     width: 2rem;
     padding-top: 0.1rem;
 }
-.Overskrift{
-      font-size: 1.2rem;
+
+.Overskrift {
+    font-size: 1.2rem;
 }
 
-.head{
+.head {
     display: grid;
     grid-template-columns: 1fr 6fr;
     padding-bottom: 0;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
     padding: 0;
 
 }
-.dropDown img{
+
+.dropDown img {
     height: 1rem;
     width: 2rem;
     margin: 0;
     padding: 0;
 }
-.random{
+
+.random {
     height: 60rem;
     width: 10vw;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 120px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 7px 5px;
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 7px 5px;
+    z-index: 1;
 }
 
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
     text-align: left;
     padding-left: 0;
     padding: 0;
     background-color: #f1f1f1;
 }
+
 li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 
 li a:hover {
-  background-color: rgb(254, 100, 0);
-  color: white;
+    background-color: rgb(254, 100, 0);
+    color: white;
 }
-.lillemenu{display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-text-align: center;
+
+.lillemenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
 }
-.tekstmenu{
+
+.tekstmenu {
     display: none;
 }
-.pilned{
+
+.pilned {
     height: 1rem;
     width: 2rem;
     margin: 0;
     padding: 0;
     display: none;
 }
-@media only screen and (min-width: 500px){
+
+@media only screen and (min-width: 500px) {
     .Logo {
-    height: 3rem;
-    width: 4rem;
-}
-   .Overskrift{
-      font-size: 1.8rem;
-}
-    .bruger{
-    display: none;
-}
-    .tekstmenu{
-    display: block;
+        height: 3rem;
+        width: 4rem;
+    }
+
+    .Overskrift {
+        font-size: 1.8rem;
+    }
+
+    .bruger {
+        display: none;
+    }
+
+    .tekstmenu {
+        display: block;
         font-size: 0.8rem;
 
-}
-    .pilned{display: block;
+    }
+
+    .pilned {
+        display: block;
         padding-top: 0.6rem;
     }
-    .pilnedbeholder{
+
+    .pilnedbeholder {
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding-top: 0.5rem;
     }
 }
-@media only screen and (min-width: 1200px){
 
-      .Overskrift{
-      font-size: 2.2rem;
-          padding-top: 0;
-}
-    .Logo{
-        height: 4rem;
-    width: 5rem;
-        padding-bottom: 0:
+@media only screen and (min-width: 1200px) {
 
+    .Overskrift {
+        font-size: 2.2rem;
+        padding-top: 0;
     }
-.pilnedbeholder{
-    padding-left: 0.3rem;
+
+    .Logo {
+        height: 4rem;
+        width: 5rem;
+        padding-bottom: 0:
+    }
+
+    .pilnedbeholder {
+        padding-left: 0.3rem;
     }
 
 
@@ -249,6 +268,11 @@ footer {
     justify-content: space-between;
     margin: 0px;
     padding: 10px;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/master
 
 
 }
@@ -278,12 +302,37 @@ footer {
 
 }
 
-    /******************************************FooterStart************************************************/
+/******************************************FooterStart************************************************/
 
 
 
+@font-face {
+    font-family: 'limestoneregular';
+    src: url('limestone_regular-webfont.woff2') format('woff2'),
+        url('limestone_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+p {
+
+    font-family: limestoneregular;
+
+}
+
+h1 {
+
+<<<<<<< HEAD
 
 footer {
+=======
+    font-family: limestoneregular;
+
+}
+
+h2 {
+
+    font-family: limestoneregular;
+>>>>>>> origin/master
 
 }
